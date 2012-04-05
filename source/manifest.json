@@ -1,6 +1,7 @@
 {
   "name": "Flambient",
   "version": "1.0",
+  "update_url": "https://raw.github.com/revdancatt/Flambient/master/updates.xml",
   "manifest_version": 2,
   "description": "Add the pxl effect to images on Flickr.",
   "page_action": {
