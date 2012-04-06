@@ -7,6 +7,7 @@
     <meta name="description" content="Flambient : Chrome extension that adds the pxl effect from GuardianAmbientHeadlineRadio to Flickr photo" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css">
 
     <title>Flambient</title>
   </head>
@@ -19,7 +20,7 @@
           <a id="forkme_banner" href="https://github.com/revdancatt/Flambient">Fork Me on GitHub</a>
 
           <h1 id="project_title">Flambient</h1>
-          <h2 id="project_tagline">Chrome extension that adds the pxl effect from GuardianAmbientHeadlineRadio to Flickr photo</h2>
+          <h2 id="project_tagline">Chrome extension that adds the pxl effect from GuardianAmbientHeadlineRadio to Flickr photos</h2>
 
           <section id="downloads">
             <a class="zip_download_link" href="https://github.com/revdancatt/Flambient/zipball/master">Download this project as a .zip file</a>
@@ -31,39 +32,77 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <section id="install">
+          <h3>Install.</h3>
+          <p class="left">
+            Flambient is a Chrome extension that adds a button to Flickr's <strong>Photo</strong> &amp; <strong>All Sizes</strong> 
+            pages that lets you add the "pxl" image effect.
+          </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+          <div id="action" class="c-button">
+            <div class="button">
+              <span>
+                <span>
+                  <a id="button" href="https://github.com/revdancatt/Flambient/raw/master/Flambient.crx">Install Flambient Now</a>
+                </span>
+              </span>
+            </div>
+            <p>
+              <strong>Click</strong> to add this extension to Chrome.
+            </p>
+          </div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+          <p>
+            <img class="wide" src="images/arrows.jpg" />
+          </p>
 
-<h3>Designer Templates</h3>
+        </section>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        <section id="about">
+          <h3>About</h3>
+          <p>
+            <strong><a href="http://itunes.apple.com/us/app/pxl./id499620829">pxl.</a></strong> is an iPhone app that 
+            allows you to create abstract compositions out of photos. This extension allows you to add that effect to
+            photos on Flickr.
+          </p>
+          <p>
+            Just install the extension and click the Flambient button on the page or the icon in the
+            address bar when it appears.
+          </p>
+          <p>
+            <img class="wide" src="images/example1.jpg" />
+          </p>
+          <p>
+            It also works on the <strong>All Sizes</strong> page, so you can add the effect to the large or even original size
+            (although that one takes a little longer).
+          </p>
+          <p>
+            <img class="wide" src="images/example2.jpg" />
+          </p>
+        </section>
 
-<h3>Rather Drive Stick?</h3>
+        <section id="source">
+          <h3>Sourcecode</h3>
+          <p>
+            Flambient grew out of the <a href="https://github.com/revdancatt/GuardianAmbientHeadlineRadio">Guardian Ambient Headline Radio</a> project, which is where it got its name from <strong>Flickr</strong> + <strong>Ambient</strong> = <strong>Flambient</strong>.
+          </p>
+          <p>
+            You can read more about that project here: <a href="http://revdancatt.com/2012/03/31/the-pxl-effect-with-javascript-and-canvas-and-maths/">The pxl effect with javascript and canvas (and maths)</a> and download <em>its</em> source code here: <a href="https://github.com/revdancatt/GuardianAmbientHeadlineRadio">github.com/revdancatt/GuardianAmbientHeadlineRadio</a>.
+          </p>
+          <p>
+            The main image processing code was ported (realativily unmodified) to this Chrome extension and you can find the source
+            to this code over here: <a href="https://github.com/revdancatt/Flambient">https://github.com/revdancatt/Flambient</a>, if you want to see what weird hoops you have to jump through to get canvas to work with Chrome extensions.
+          </p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact support@github.com and we’ll help you sort it out.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Flambient maintained by <a href="https://github.com/revdancatt">revdancatt</a></p>
+        <p class="copyright">Flambient maintained by <a href="https://github.com/revdancatt">revdancatt</a>,
+        you can follow me on twitter <a href="http://twitter.com/revdancatt">@revdancatt</a>.</p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>

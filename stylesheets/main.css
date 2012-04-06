@@ -1,0 +1,65 @@
+#install, #about {
+  clear: both;
+  overflow: visible;
+}
+
+#action {
+  width: 260px;
+  float: right;
+}
+
+#header_wrap {
+  background:url(../images/header.jpg) repeat-x center top;
+  -webkit-box-shadow: inset 0px 0px 16px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 16px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 16px 2px rgba(0, 0, 0, 0.3);
+}
+
+#project_tagline {
+  text-shadow: #000 0px 0px 10px, #000 0px 0px 5px;
+}
+
+p.left {
+  float: left;
+  width: 340px;
+}
+
+img.wide {
+  border: 1px solid #999;
+  background: white;
+  padding: 2px;
+  width: 634px
+}
+.c-button  {
+  line-height:1.2;
+  overflow:visible;
+  color:#333;
+}
+
+.c-button  div.button {
+  background:url(../images/c-button-basic-1.gif) no-repeat;
+  background-color:#0B6FD4;
+  margin-bottom:0.3em;
+}
+
+.c-button  div.button span {
+  display:block;
+  background:url(../images/c-button-basic-1.gif) no-repeat right -400px;
+  height:1%;
+}
+
+.c-button div.button span span {
+  background:url(../images/c-button-basic-1.gif) no-repeat left bottom;
+}
+
+.c-button div.button span span a {
+  display:block;
+  text-align:center;
+  font-size:1.4em;
+  color:#fff !important;
+  background:url(../images/c-button-basic-2.gif) no-repeat right bottom;
+  padding:16px 8px 19px 8px;
+  text-decoration:none;
+  font-weight:bold;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.2);
+}
