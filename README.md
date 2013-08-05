@@ -1,7 +1,6 @@
 ![Flambient](http://cattopus23.com/img/panel-CAT432.png)
-
-Flambient
-=========
+CAT434 Flambient
+================
 
 An image rendering technique in Javascript + Canvas, written so I could blow-up small thumbnail images into background 
 wallpapers without suffering scaling issues.
